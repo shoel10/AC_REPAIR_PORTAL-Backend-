@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ac_repair_backend_with_mapping_service_laxmi_2.iml" filepath="$PROJECT_DIR$/.idea/ac_repair_backend_with_mapping_service_laxmi_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ac_repair_backend_with_mapping_service/ac_repair_backend_2/project/springboot-backend/springboot-backend.iml" filepath="$PROJECT_DIR$/ac_repair_backend_with_mapping_service/ac_repair_backend_2/project/springboot-backend/springboot-backend.iml" />
+    </modules>
+  </component>
+</project>
