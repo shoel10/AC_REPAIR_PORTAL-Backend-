@@ -15,8 +15,8 @@ public class Employee {
 
         @Id
         private long id;
-
-        private long id;
+        @Column(name = "id")
+        
 
         @Column(name = "name")
         private String name;
