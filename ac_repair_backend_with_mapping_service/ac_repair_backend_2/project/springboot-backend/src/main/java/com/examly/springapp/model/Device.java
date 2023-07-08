@@ -1,7 +1,7 @@
 package com.examly.springapp.model;
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,7 +18,8 @@ import lombok.Setter;
 public class Device {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+   @Column(name="id")
+
     private long id;
 
     @Column(name="brand")
