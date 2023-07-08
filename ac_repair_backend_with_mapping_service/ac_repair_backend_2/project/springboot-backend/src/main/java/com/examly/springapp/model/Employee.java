@@ -3,7 +3,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Getter
 @Setter
@@ -14,7 +14,8 @@ import jakarta.persistence.*;
 public class Employee {
 
         @Id
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        private long id;
+
         private long id;
 
         @Column(name = "name")
