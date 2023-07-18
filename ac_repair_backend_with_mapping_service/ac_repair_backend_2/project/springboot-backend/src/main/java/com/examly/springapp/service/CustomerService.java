@@ -34,7 +34,7 @@ public class CustomerService {
         Customer customer = getCustomerById(customerId);
         customer.setName(customerDetails.getName());
         customer.setEmail(customerDetails.getEmail());
-        customer.setPhone_no(customerDetails.getPhone_no());
+        customer.setPhone(customerDetails.getPhone());
         // Update other fields as needed
         return customerRepository.save(customer);
     }
