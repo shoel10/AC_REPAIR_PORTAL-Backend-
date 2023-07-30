@@ -14,9 +14,9 @@ import javax.persistence.*;
 public class Employee {
 
         @Id
-        private long id;
-        @Column(name = "id")
         
+        @Column(name = "id")
+        private long id;
 
         @Column(name = "name")
         private String name;
